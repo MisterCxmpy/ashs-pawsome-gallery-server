@@ -8,7 +8,7 @@ const port = process.env.PORT;
 
 const allowedOrigins = [
   'https://ashs-pawsome-gallery.netlify.app',
-  'https://another-domain.com'
+  'http://localhost:5173"'
 ];
 
 app.use(cors({ origin: allowedOrigins }));
