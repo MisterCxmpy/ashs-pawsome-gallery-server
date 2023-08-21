@@ -6,7 +6,7 @@ require('dotenv').config()
 const app = express();
 const port = process.env.PORT;
 
-app.use(cors({ origin: 'https://ashs-pawsome-gallery.netlify.app' }))
+app.use(cors({ origin: 'https://ashs-pawsome-gallery.netlify.app' || "http://localhost:5173" }))
 
 const drive = google.drive({
   version: 'v3',
