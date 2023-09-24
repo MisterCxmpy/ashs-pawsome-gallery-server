@@ -2,7 +2,7 @@
   "name": "ash-image-gallary-server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
